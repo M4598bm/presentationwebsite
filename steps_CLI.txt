@@ -1,0 +1,8 @@
+How to start
+1. Download node.js (https://nodejs.org/en/)
+2. $ sudo npm install -g phonegap
+3. $ phonegap create <file_name> com.example.<file_name> <file display text>
+Build the app
+1. change into <file_name> directory
+2. $ phonegap build ios OR $ phonegap build android
+3. Plug in an android device that has USB debugging enabled, or install an android virtual device. 
