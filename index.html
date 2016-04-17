@@ -3,6 +3,32 @@
   <title>
     Phonegap Tutorial
   </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $("#cli").click(function(){
+    $("#cl").toggle();
+    });
+    });
+
+    $(document).ready(function(){
+    $("#da").click(function(){
+    $("#d").toggle();
+    });
+    });
+
+    $(document).ready(function(){
+    $("#dma").click(function(){
+    $("#dm").toggle();
+    });
+    });
+
+    $(document).ready(function(){
+    $("#pgb").click(function(){
+    $("#pg").toggle();
+    });
+    });
+  </script>
 </head>
 
 <body>
@@ -21,31 +47,28 @@
 
   <div>
     <h1>Tools</h1>
-    <p>
-      <h2>Phonegap CLI</h2>
+    
+      <button id="cli">Phonegap CLI</button>
+    <p style="display: none" id="cl">
       create, serve, compile, run from terminal. written in node.js
-
     </p>
-    <p>
-      <h2>Desktop App</h2>
+    <button id="da">Desktop App</button>
+    <p style="display: none" id="d">
       v0.2.1
       alternative to cli
       create and serve apps to connected mobile devices
       pretty gui!
-
     </p>
-    <p>
-      <h2>Developer Mobile App</h2>
+      <button id="dma">Developer Mobile App</button>
+    <p style="display: none" id="dm">
       use it to quickly check on your app
       develop locally, see instant changes
       lets you test your app fuss-free
-
     </p>
-    <p>
-      <h2>Phonegap Build</h2>
+    <button id="pgb">Phonegap Build</button>
+    <p style="display: none" id="pg">
       packages your code in the cloud!
       always uses the most up-to-date software development kit
-
     </p>
     <p>
       <h2>Extras</h2>
